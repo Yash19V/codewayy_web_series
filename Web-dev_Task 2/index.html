@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>Task 2</h1>
+            <p>My name is Yash Vijan and I am pursuing my btech from dit university<p>
+        </header>
+
+        <main>
+            <!--Image Tag-->
+            <h3>Image Tag: </h3>
+            <img src="Images/hello.jfif" alt="hello" height="100" width="150">
+
+            <!--Favorite Stuff and Lanuages Known-->
+            <article>
+                <h3>Things I Love: </h3>
+                <ul>
+                    <li>Music</li>
+                    <li>Programming</li>
+                    <li>Cricket</li>
+                    <li>Travelling</li>
+                </ul>
+                <h3>Languages Known:</h3>
+                <ol>
+                    <li>Java</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>DBMS</li>
+                    <li>C#</li>
+                </ol>
+            </article>
+
+            <!--Contact Form-->
+            <section class="Contact">
+                <h3>Please Fill This Form:</h3>
+                <form action="results.html" method="GET">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Email ID" required>
+                    </div>
+                    <div>
+                        <label for="mob">Contact Number:</label>
+                        <input type="tel" name="mob" id="mob" placeholder="Enter mob.no" required>
+                    </div>
+                    <div>
+                        <label for="Message">
+                            Message:
+                            <textarea cols="20" rows="1" name="Message" id="Message" placeholder="Enter your message here"></textarea>
+                        </label>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
+
+            <!--Table-->
+            <section class="marks">
+                <h3>Marks: </h3>
+                <table border="1">
+                    <tr bgcolor="#ADD8E6">
+                        <th>College/Institute</th>
+                        <th>Board</th>
+                        <th>CGPA/Percentage</th>
+                    </tr>
+
+                    <tr>
+                        <td>St.Judes School</td>
+                        <td>ICSE</td>
+                        <td>93%</td>
+                    </tr>
+
+                    <tr>
+                        <td>St.Judes School</td>
+                        <td>ISC</td>
+                        <td>91%</td>
+                    </tr>
+
+                    <tr>
+                        <td>DIT University</td>
+                        <td>-</td>
+                        <td>9.7</td>
+                    </tr>
+                </table>
+            </section>
+            
+        </main>
+    
+        <footer>
+                <p>Thanks for Visiting.</p>
+                <p class="copyright"> copyright 2020 </p>
+        </footer>
+    </body>
+</html>
