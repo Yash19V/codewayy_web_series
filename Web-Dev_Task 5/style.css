@@ -1,0 +1,43 @@
+header {
+    background-image: url(Images/first.jpg);
+    background-size: cover;
+    height: 160px;
+    padding-top: 5px;
+}
+.a {
+    color: white;
+    padding-left: 50px;
+    text-align: center;
+}
+.button {
+	height: 40px;
+	width: 140px;
+    opacity: 0.6;
+    margin: 0px 90px;
+    color: black;
+}
+.b {
+    opacity: 1;
+    color: blue;
+    background-color: white;
+}
+.box {
+    height: 550px;
+    width: 280px;
+    padding: 10px 10px 20px;
+    margin-right: 5px;
+    background-color :#336600;
+    float: left;
+
+}
+.c {
+    margin: 10px;
+    border: 3px solid black;
+}
+.e {
+    font-size: 35px;
+    
+}
+#f {
+    margin-left: 320px;
+}
