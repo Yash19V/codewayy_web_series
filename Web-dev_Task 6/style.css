@@ -1,0 +1,130 @@
+header {
+    background-color: blue;
+    padding-top: 30px;
+    text-align: center;
+    height: 45px;
+    margin-bottom: 5px;
+}
+.Top
+{
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+.el
+{
+    padding-left: 100px;
+}
+.ele
+{
+    float: right;
+    padding-right: 50px;
+}
+.elem
+{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+}
+main {
+    background-color: aliceblue;
+}
+.intro {
+    padding-top: 35px;
+    background-color: #66b3ff;
+    width: 350px;
+    height: 200px;
+    margin-right: 5px;
+    float: left;
+}
+.headings {
+    color: white;
+    font-size: 13px;
+}
+.para-one {
+    font-size: 20px;
+    text-align: center;
+    font-style: unset; 
+}
+.para-two {
+    font-size: 12px;
+    text-align: center;
+}
+.button-one {
+    margin: 25px;
+    height: 30px;
+    width: 120px;
+    border: 2px solid blue;
+    color: blue;
+    background-color:  #66b3ff;
+}
+.About-Me {
+    text-align: center;
+    padding-top: 30px;
+    background-image: url(Images/fourth.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1460px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+.box-one {
+    background-color: #66b3ff;
+    height: 350px;
+    width: 730px;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+    padding-top: 10px;
+    /**clear: both;**/
+}
+.box-two {
+    background-color: #66b3ff;
+    height: 350px;
+    width: 720px;
+    margin-right: 42px;
+    text-align: center;
+    margin-bottom: 10px;
+    float: right;
+    padding-top: 10px;
+}
+.box-three {
+    background-color: #66b3ff;
+    padding: 5px;
+    text-align: center;
+    width: 1453px;
+    height: 90px;
+    clear: both;
+}
+.box-four {
+	background-color: #66b3ff;
+	text-align: center;
+	float: left;
+	margin: 3px;
+	width: 321px;
+	padding: 20px;
+}
+.green-box{
+	background-color: lightgreen;
+	clear: both;
+	height: 400px;
+	width: 733px;
+	float: left;
+}
+.Contact-Form {
+    background-color: #66b3ff;
+	text-align: center;
+	height: 400px;
+    width: 730px;
+    margin-right: 38px;
+	float: right;
+	border: none;
+}
+.send {
+    padding: 8px;
+	
+	background-color: transparent;
+	border: blue solid 1px;
+	color: blue;
+	width: 380px;
+}
