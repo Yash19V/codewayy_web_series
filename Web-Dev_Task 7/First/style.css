@@ -1,0 +1,83 @@
+header {
+    color: greenyellow;
+    font-family: Arial;
+    width: 100%;
+}
+.wrap {
+    width: 100%;
+}
+.first {
+    display: none;
+}
+.info {
+    width: 100%;
+    padding-top: 10px;
+}
+.info h3 {
+    color: red;
+    font-family: Arial;
+    line-height: 12px;
+}
+.info p {
+    color: blue;
+    font-family: Arial;
+}
+.second {
+    width: 100%;
+}
+footer {
+    color: green;
+    font-family: Arial;
+}
+@media only screen and (min-width: 768px) {
+
+    header {
+        font-size: 20px;
+        margin: 10px;
+    }
+    .first {
+        display: block;
+        margin: 10px;
+    }
+    .wrap {
+        width: 700px;
+        margin: 10px;
+    }
+    .info h3 {
+        font-size: 18px;
+    }
+    .info p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .second {
+        width: 150px;
+    }
+    footer {
+        color: red;
+    }
+}
+@media (min-width: 990px) {
+
+    header {
+        font-size: 25px;
+    }
+    .first {
+        float: left;
+    }
+    .wrap {
+        width: 100%;
+    }
+    .info h3 {
+        font-size: 20px;
+    }
+    .info p {
+        font-size: 17px;
+    }
+    .Lorem {
+        clear: both;
+    }
+    footer {
+        color:  greenyellow;
+    }
+}
